@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <h2>Grootan Test</h2>
+        <h4>Round 2</h4>
+        <form>
+            Name <input type = "text" name = "Name" /><br>
+            Age <input type = "text" name = "Age" /><br>
+            Email <input type="text" name="email"/><br>
+            Country<select name="drop">
+                <option value="India" selected>India</option>
+                <option value="Australia">Australia</option>
+                <option value="Kenya">Kenya</option>
+            </select><br>
+            DOB <input type="text" name"dob"/><br>
+            Gender <input type="radio" name="gender" value="male"/>Male  
+            <input type="radio" name="gender" value="female"/>female<br>
+            Languages Known<select name="drop">
+                <option value="java" selected>Java</option>
+                <option value="ruby" selected>Ruby</option>
+                <option value="python" selected>Python</option>
+            </select>
+            Upload photography<input type = "file" name = "fileupload" accept = "image/*" />choose file<br>
+            Website Address<input type="text" name="website address"/><br>
+            
+        </form>
+    </body>
+</html>
+
